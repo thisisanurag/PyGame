@@ -2,12 +2,13 @@ import pygame
 import time
 import random
 pygame.init()
+#width and height of the window
 display_width=800
 display_height=600
 car_width=44
 car_height=93
-img=pygame.image.load('9.png')
-img2=pygame.image.load('stone.png')
+img=pygame.image.load('9.png')#Used to load the car image
+img2=pygame.image.load('stone.png')#Used to load the obstacle image
 disp=pygame.display.set_mode((display_width,display_height))
 pygame.display.set_caption('Race')
 clock=pygame.time.Clock()
